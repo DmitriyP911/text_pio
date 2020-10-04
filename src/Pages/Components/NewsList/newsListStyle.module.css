@@ -1,0 +1,28 @@
+.list {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.newsItem {
+    display: block;
+    padding: 10px;
+    width: 400px;
+    height: auto;
+    border: 1px solid grey;
+    border-radius: 4px;
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.newsItem > span {
+    color: tomato;
+}
+
+.img {
+    width: 240px;
+    height: auto;
+}
